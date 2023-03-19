@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.b8caa40f.css","mappings":"AAAA,mBAGI,kBAAmB,CAFnB,YAAa,CACb,qBAEJ","sources":["styles.css"],"sourcesContent":[".defaultPage {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}"],"names":[],"sourceRoot":""}
