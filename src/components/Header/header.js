@@ -1,11 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { CustomButton } from "../components";
+import { CustomButton, Banner } from "../components";
+import "./header.css";
 
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="banner">
       <CustomButton
         onClick={() => {
           navigate("/");
