@@ -10,7 +10,8 @@ import "./styles.css";
 const Main = () => {
   return (
       <div>
-    <Provider store={state}>
+          <h1>hi</h1>
+    {/* <Provider store={state}>
       <BrowserRouter>
           <Header />
         <Routes>
@@ -18,7 +19,7 @@ const Main = () => {
           <Route exact path="/projects" element={<Projects />}></Route>
         </Routes>
       </BrowserRouter>
-    </Provider>
+    </Provider> */}
     </div>
   );
 };
