@@ -10,7 +10,6 @@ import "./styles.css";
 const Main = () => {
   return (
     <div>
-      <h1>hey</h1>
       <Provider store={state}>
         <BrowserRouter>
           <Header />
