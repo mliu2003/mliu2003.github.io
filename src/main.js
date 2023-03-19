@@ -9,17 +9,17 @@ import "./styles.css";
 
 const Main = () => {
   return (
-      <div>
-          <h1>hi</h1>
-    <Provider store={state}>
-      <BrowserRouter>
+    <div>
+      <h1>hey</h1>
+      <Provider store={state}>
+        <BrowserRouter>
           <Header />
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/projects" element={<Projects />}></Route>
-        </Routes>
-      </BrowserRouter>
-    </Provider>
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/projects" element={<Projects />}></Route>
+          </Routes>
+        </BrowserRouter>
+      </Provider>
     </div>
   );
 };
