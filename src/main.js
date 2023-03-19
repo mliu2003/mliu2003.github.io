@@ -11,7 +11,7 @@ const Main = () => {
   return (
       <div>
           <h1>hi</h1>
-    {/* <Provider store={state}>
+    <Provider store={state}>
       <BrowserRouter>
           <Header />
         <Routes>
@@ -19,7 +19,7 @@ const Main = () => {
           <Route exact path="/projects" element={<Projects />}></Route>
         </Routes>
       </BrowserRouter>
-    </Provider> */}
+    </Provider>
     </div>
   );
 };
