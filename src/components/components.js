@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 export const CustomButton = ({ color, children, height, onClick, width }) => {
   return (
@@ -9,23 +9,17 @@ export const CustomButton = ({ color, children, height, onClick, width }) => {
         fill: color,
         height,
         width,
-        margin: "15px",
+        margin: "0px",
       }}
     >
-      <h3>
-        {children}
-      </h3>
+        <h3
+            style={{
+            textAlign: "center",
+            fontSize: "80px",
+            }}
+        >
+            {children}
+        </h3>
     </div>
   );
 };
-
-export const Banner = ({ color, height}) => {
-    return (
-        <div style={{
-            backgroundColor: color,
-            height,
-            width: "100%",
-            position: "absolute",
-        }}></div>
-    )
-}
